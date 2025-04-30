@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ../front
+npm run build
+cp -r dist/* ../back/static/
